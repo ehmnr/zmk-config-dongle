@@ -1,0 +1,9 @@
+file_format: "1"
+id: nice60_dongle
+name: The nice60_dongle
+type: shield
+url: https://github.com/ehmnr/zmk-config-GP-dongle/
+features:
+  - keys
+siblings:
+  - nice60_dongle
