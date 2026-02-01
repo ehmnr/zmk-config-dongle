@@ -18,3 +18,11 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
+  - board: nice60
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+  - board: nice60
+    shield: nice60_dongle
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
+  - board: nice60
+    shield: settings_reset
