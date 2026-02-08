@@ -95,9 +95,7 @@ RC(5,0)   RC(10,0) RC(5,1)                              RC(8,3)                 
 /*
 &reg1 {
     regulator-initial-mode = <NRF5X_REG_MODE_DCDC>;
-    # regulator-initial-mode = <NRF5X_REG_MODE_LDO>;
 };
-
 */
 
 
